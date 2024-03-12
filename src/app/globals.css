@@ -17,8 +17,6 @@
 }
 
 body {
-  background-image: url("/background.svg");
-  background-repeat: no-repeat, repeat;
   background-color: #cccccc;
   color: #cccccc;
 }
