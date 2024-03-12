@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,11 +20,15 @@ export default function Home() {
         </p>
       </div>
       <div className="mt-8">
-        <button className="bg-primary/30 relative hover:bg-secondary/20 hover:text-white font-medium text-lg flex flex-row gap-3 justify-center items-center px-6 py-2.5 rounded-xl">
+        <Link
+          target="_blank"
+          href="https://twitter.com/CoinCraftfi"
+          className="bg-primary/30 relative hover:bg-secondary/20 hover:text-white font-medium text-lg flex flex-row gap-3 justify-center items-center px-6 py-2.5 rounded-xl"
+        >
           <Image src={"/icons/X.svg"} alt="X Icon" width={"15"} height={"15"} />
           <span className="pt-1">Follow Us & Stay Tuned</span>
           <div className="h-3 w-3 bg-primary rounded-full absolute top-0 right-0 animate-ping"></div>
-        </button>
+        </Link>
       </div>
     </div>
   );
