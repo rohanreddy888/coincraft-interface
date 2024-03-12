@@ -17,8 +17,8 @@ export const metadata = {
       "Collect, Connect, Conquer! Elevate your experience with our curated token bundles – your key to a universe of possibilities, all in one seamless package.",
     images: [
       {
-        url: "https://www.quillaudits.com/og/og-home.png",
-        secureUrl: "https://www.quillaudits.com/og/og-home.png",
+        url: "https://coincraft-interface.vercel.app/og/og-home.png",
+        secureUrl: "https://coincraft-interface.vercel.app/og/og-home.png",
         alt: "CoinCraft - Unlock a World of Possibilities with Our Bundled Brilliance!",
         width: 1200,
         height: 630,
@@ -38,7 +38,7 @@ export const metadata = {
     description:
       "Collect, Connect, Conquer! Elevate your experience with our curated token bundles – your key to a universe of possibilities, all in one seamless package.",
     creator: "@QuillAudits",
-    images: ["https://www.quillaudits.com/og/og-home.png"],
+    images: ["https://coincraft-interface.vercel.app/og/og-home.png"],
   },
   robots: {
     index: true,
